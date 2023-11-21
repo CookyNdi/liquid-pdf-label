@@ -75,6 +75,11 @@ const hello = (req, res) => {
   }
 };
 
+const wellcome = (req, res) => {
+  res.status(200).json("working")
+}
+
 module.exports = {
   hello,
+  wellcome
 };
